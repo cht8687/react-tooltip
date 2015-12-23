@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import ReactComponent from '..';
+import Tooltip from '..';
 
 class App extends Component {
 
@@ -8,7 +8,8 @@ class App extends Component {
 
     return (
       <div>
-        <ReactComponent />
+        <Tooltip 
+        />
       </div>
     );
   }

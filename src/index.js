@@ -1,3 +1,3 @@
-import ReactComponent from './ReactComponent';
-export default ReactComponent;
+import Tooltip from './Tooltip';
+export default Tooltip;
 
