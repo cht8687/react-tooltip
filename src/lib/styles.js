@@ -1,12 +1,12 @@
 export const styles = {
   trigger: {
     background: '#E0037E',
-    width: '200px',
+    width: '80px',
     margin: '0 auto'
   },
 
   hoverComponent: {
-    height: '200px',
+    height: '25px',
     overflowY: 'auto',
     outline: '1px solid blue',
     width: '300px',
