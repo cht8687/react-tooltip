@@ -2,7 +2,7 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cht8687/help)
 
 This project is under construction.
-![React Hover](src/example/construction.png)
+![React tooltip](src/example/construction.png)
 
 
 ## Development

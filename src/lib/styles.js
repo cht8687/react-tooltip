@@ -12,7 +12,6 @@ export const styles = {
     width: '300px',
     background: '#E8E27E',
     display: 'none',
-    position: 'absolute',
-    margin: '-20px 0 0 717px'
+    position: 'absolute'
   }
 };
