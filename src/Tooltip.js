@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import ReactHover from 'react-hover';
-import * as componentHtml from './lib/componentHtml';
-import * as styles from './lib/styles';
 
 export default class Tooltip extends Component {
   static propTypes = {
-    
+    options: PropTypes.object.isRequired,
+    tooltipComponent: PropTypes.object.isRequired,
+    styles: PropTypes.object.isRequired,
   }
 
   constructor(props) {
@@ -17,12 +17,14 @@ export default class Tooltip extends Component {
   }
 
   render() {
+    const { options, tooltipComponent, styles } = this.props;
 
     return (
       <span>
         <ReactHover
-          styles={styles.styles}
-          componentHtml={componentHtml.componentHtml}
+          styles={styles}
+          componentHtml={tooltipComponent}
+          options={options}
         />
       </span>
     );
