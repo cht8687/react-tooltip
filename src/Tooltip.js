@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import ReactHover from 'react-hover';
+import { initDirection } from './lib/style'
 
 export default class Tooltip extends Component {
   static propTypes = {
@@ -8,21 +9,13 @@ export default class Tooltip extends Component {
     styles: PropTypes.object.isRequired,
   }
 
-  constructor(props) {
-    super(props);
-
-    this.state = {
-
-    }
-  }
-
   render() {
-    const { options, tooltipComponent, styles } = this.props;
-
+    let { options, tooltipComponent, styles } = this.props
+    const directionCSS = Object.assign({}, styles, initDirection(options.direction))
     return (
-      <span>
+      <span style={{ position: 'relative', display: 'inline-block'}}>
         <ReactHover
-          styles={styles}
+          styles={directionCSS}
           componentHtml={tooltipComponent}
           options={options}
         />

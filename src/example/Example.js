@@ -3,10 +3,10 @@ import { render } from 'react-dom'
 import Tooltip from '..'
 
 const options = {
-	direction: 'right',
-  offsetX: '10',
-  offsetY: '10',
- 	backgroundColor: '#CCCCCC'
+  direction: 'Top',
+  followCursor: false,
+  shiftX: 20,
+  shiftY: 0
 }
 
 const tooltip1 = {
@@ -25,19 +25,18 @@ const styles = {
     overflowY: 'auto',
     outline: '1px solid blue',
     width: '300px',
-    background: '#E8E27E',
+    background: '#cccccc',
     display: 'none',
     position: 'absolute'
   }
 };
-
 
 class App extends Component {
 
   render() {
 
     return (
-      <div>
+      <div style={{marginTop: '100px'}}>
       	React tooltip is 
         <Tooltip 
         	options={options}
