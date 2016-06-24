@@ -1,4 +1,3 @@
-# React tooltip 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cht8687/help)
 
 <big><h1 align="center">React Tooltip --- configurable tooltip</h1></big>
@@ -23,8 +22,8 @@
          alt="Build Status">
   </a>
 
-  <a href="https://npmjs.org/package/react-tooltip">
-    <img src="http://img.shields.io/npm/dm/react-tooltip.svg?style=flat-square"
+  <a href="https://npmjs.org/package/rc-react-tooltip">
+    <img src="http://img.shields.io/npm/dm/rc-react-tooltip.svg?style=flat-square"
          alt="Downloads">
   </a>
 
