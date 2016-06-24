@@ -26,7 +26,8 @@ module.exports = {
           test: /\.js$/, 
           loaders: ['react-hot', 'babel'],
           include: [path.resolve('src')]
-        }
+        },
+        { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
       ],
       preLoaders: [
         {
