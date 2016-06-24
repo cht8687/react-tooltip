@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import Tooltip from '..'
 
 const options = {
-  direction: 'Top',
+  direction: 'Right',
   followCursor: false,
   shiftX: 20,
   shiftY: 0
@@ -16,8 +16,9 @@ const tooltip1 = {
 
 const styles = {
   trigger: {
-    background: '#E0037E',
-    width: '80px'
+    background: 'rgb(142, 147, 247)',
+    width: '80px',
+    marginLeft: '5px'
   },
 
   hoverComponent: {
@@ -36,13 +37,24 @@ class App extends Component {
   render() {
 
     return (
-      <div style={{marginTop: '100px'}}>
-      	React tooltip is 
-        <Tooltip 
-        	options={options}
-        	tooltipComponent={tooltip1}
-        	styles={styles}
-        />
+      <div>
+        <div style={{marginTop: '100px'}}>
+        	React tooltip is 
+          <Tooltip 
+          	options={options}
+          	tooltipComponent={tooltip1}
+          	styles={styles}
+          />
+        </div>
+
+         <div style={{marginTop: '100px'}}>
+          React tooltip is 
+          <Tooltip 
+            options={options}
+            tooltipComponent={tooltip1}
+            styles={styles}
+          />
+        </div>
       </div>
     )
   }

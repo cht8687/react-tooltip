@@ -44,25 +44,19 @@ function getDownStyle() {
 export function initDirection(d) {
   switch(d) {
     case TOP:
-      return hoverComponentWrap(getTopStyle())
+      return getTopStyle()
       break
     case DOWN:
-      return hoverComponentWrap(getDownStyle())
+      return getDownStyle()
       break
     case LEFT:
-      return hoverComponentWrap(getLeftStyle())
+      return getLeftStyle()
       break
     case RIGHT:
-      return hoverComponentWrap(getRightStyle())
+      return getRightStyle()
       break
     default:
-      return hoverComponentWrap(getRightStyle())
+      return getRightStyle()
       break
-  }
-}
-
-export function hoverComponentWrap(d) {
-  return {
-      hoverComponent: d
   }
 }
