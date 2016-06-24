@@ -1,7 +1,7 @@
 {
-  "name": "react-component",
-  "version": "0.0.0",
-  "description": "description",
+  "name": "rc-react-tooltip",
+  "version": "0.0.1",
+  "description": "configurable react tooltip",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "parallelshell -w \"npm run build:dist -s\" \"npm run build:example -s\" \"npm run build:bower -s\"",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cht8687/react-component.git"
+    "url": "git+https://github.com/cht8687/react-tooltip.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Robert Chang <cht8687@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cht8687/react-component/issues"
+    "url": "https://github.com/cht8687/react-tooltip/issues"
   },
-  "homepage": "https://github.com/cht8687/react-component#readme",
+  "homepage": "https://github.com/cht8687/react-tooltip#readme",
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",

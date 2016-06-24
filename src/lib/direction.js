@@ -40,10 +40,6 @@ function getDownStyle() {
   }
 } 
 
-
-
-
-
 export function initDirection(d) {
   switch(d) {
     case TOP:
