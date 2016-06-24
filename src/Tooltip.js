@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import ReactHover from 'react-hover'
-import { initDirection } from './lib/style'
+import { initDirection } from './lib/option'
 
 export default class Tooltip extends Component {
   static propTypes = {
