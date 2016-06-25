@@ -40,8 +40,13 @@ function getDownStyle() {
   }
 } 
 
-export function initDirection(d) {
-  switch(d) {
+export function getStyle(d) {
+
+  const { direction, followCursor } = d;
+  if (followCursor)
+    return;
+
+  switch(direction) {
     case TOP:
       return getTopStyle()
       break

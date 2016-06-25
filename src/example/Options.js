@@ -1,6 +1,6 @@
 export const optionsRight = {
   direction: 'Right',
-  followCursor: false,
+  followCursor: true,
   shiftX: 20,
   shiftY: 0
 }
