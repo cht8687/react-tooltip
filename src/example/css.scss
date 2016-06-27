@@ -3,6 +3,30 @@ html, body{
   padding:0px;
   min-width: 1024px;
 }
+
+.title-text {
+  text-align: center;
+  font-size: 40px;
+  background: aliceblue;
+}
+
+.options {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.tooltip1 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.styles {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
 .container {
   height: 550px;
   position: relative;
