@@ -7,6 +7,7 @@ import {
   tooltip1
 } from './Options'
 import './css.scss'
+import TextareaAutosize from 'react-textarea-autosize'
 
 class App extends Component {
 
@@ -17,19 +18,31 @@ class App extends Component {
         <div className='options'> 
           <div className='title'>options</div>
           <div>
-            <textarea name='options' value='This is a description.' />
+            <TextareaAutosize
+              minRows={3}
+              maxRows={6}
+              defaultValue='code'
+            />
           </div>
         </div>
         <div className='tooltip1'> 
           <div className='title'>tooltip1</div>
           <div>
-            <textarea name='options' value='This is a tooltip1.' />
+             <TextareaAutosize
+              minRows={3}
+              maxRows={6}
+              defaultValue='code'
+            />
           </div>
         </div>
         <div className='styles'> 
           <div className='title'>tooltip1styles</div>
           <div>
-            <textarea name='options' value='This is a tooltip1styles.' />
+             <TextareaAutosize
+              minRows={3}
+              maxRows={6}
+              defaultValue='code'
+            />
           </div>
         </div>
         <div className='container'>
