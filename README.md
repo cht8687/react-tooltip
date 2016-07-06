@@ -47,7 +47,7 @@
 
 </big></p>
 
-
+This repo is under development. Not yet fully functioning.
 
 ## Development
 
